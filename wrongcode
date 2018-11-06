@@ -1,0 +1,59 @@
+html
+
+
+    <h1><center>Pick your choice:</center></h1>
+
+    <img src="https://image.shutterstock.com/image-vector/family-gathering-cartoon-vector-rocks-260nw-173317940.jpg" name="rock" id = "rock"/>
+    <img src="https://cdn0.iconfinder.com/data/icons/rock-paper-scissors-emoji/792/rock-paper-scissors-emoji-cartoon-019-512.png" name="paper" id = "paper"/>
+    <img src="https://image.shutterstock.com/image-vector/cute-happy-cartoon-character-sharp-260nw-207931405.jpg" name="scissors" id = "scissors"/>
+
+
+<div class="square">
+	<a>Rock</a>
+</div>
+
+<div class="square">
+	<a>Paper</a>
+</div>
+
+<div class="square">
+	<a>Scissors</a>
+</div>
+
+
+
+
+
+body
+
+
+.square {
+
+
+
+	height: 250px;
+	width: 250px;
+	align-self: left;
+	border-color: black;
+	border-width: thick;
+
+}
+
+
+
+$('.square1'),click(function(){
+	$('a').html("We've changed the text!");
+	});
+
+$('.square2'),click(function(){
+	$('a').html("We've changed the text!");
+	});
+
+$('.square3'),click(function(){
+	$('a').html("We've changed the text!");
+	});
+
+
+
+
+
